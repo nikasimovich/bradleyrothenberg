@@ -1015,24 +1015,24 @@ footer a:hover {
 /////MAIL CHIMP/////////////
 #mc_embed_signup {background-color: #046CC6;}
 
-body.pageid-390 {
+body.page-template-page-signup-php{
   background-color: #046CC6;
 }
 
-.pageid-390  .entry-content{
+.page-template-page-signup-php .entry-content{
   font-size: 75px;
   line-height: 1.1;
   color: #f0f0f0;
 }
 
-.pageid-390 button, html input[type="button"], .pageid-390 input[type="reset"],.pageid-390  input[type="submit"]{
+.page-template-page-signup-phpbutton, html input[type="button"], .page-template-page-signup-phpinput[type="reset"],.page-template-page-signup-php input[type="submit"]{
   border: 4px solid;
   height: 150px;
   width: 150px;
   margin-top: 5%;
 }
 
-.pageid-390 button, input {
+.page-template-page-signup-phpbutton, input {
   line-height: normal;
   background-color: #046CC6;
   line-height: normal;
@@ -1043,10 +1043,10 @@ body.pageid-390 {
 }
 
 
-.pageid-390 input, .pageid-390 select, .pageid-390 textarea{
+.page-template-page-signup-phpinput, .page-template-page-signup-phpselect, .page-template-page-signup-phptextarea{
     color: #F0F0F0;
 }
 
-.pageid-390 textarea:focus, .pageid-390 input:focus {
+.page-template-page-signup-phptextarea:focus, .page-template-page-signup-phpinput:focus {
     color: #F0F0F0;
 }
