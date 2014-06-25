@@ -325,7 +325,7 @@ line-height: 0;
 
 .section p:first-of-type {
 
-  max-width: 770px;
+  max-width: 650px;
 }
 
 .section.contact {
@@ -649,6 +649,7 @@ color: #373636;
   display: inline-block;
   text-align: left;
   margin: 0 40px 40px 0;
+  vertical-align: top;
 }
 
 .press a{
@@ -1008,4 +1009,44 @@ footer a:hover {
 
 #footer-mailing div.yks-mailchimpFormContainer {
   margin-top: -10px;
+}
+
+
+/////MAIL CHIMP/////////////
+#mc_embed_signup {background-color: #046CC6;}
+
+body.pageid-390 {
+  background-color: #046CC6;
+}
+
+.pageid-390  .entry-content{
+  font-size: 75px;
+  line-height: 1.1;
+  color: #f0f0f0;
+}
+
+.pageid-390 button, html input[type="button"], .pageid-390 input[type="reset"],.pageid-390  input[type="submit"]{
+  border: 4px solid;
+  height: 150px;
+  width: 150px;
+  margin-top: 5%;
+}
+
+.pageid-390 button, input {
+  line-height: normal;
+  background-color: #046CC6;
+  line-height: normal;
+  max-width: 690px;
+  border: 4px solid #F0F0F0;
+  margin-top: 5%;
+  padding-left: 2px;
+}
+
+
+.pageid-390 input, .pageid-390 select, .pageid-390 textarea{
+    color: #F0F0F0;
+}
+
+.pageid-390 textarea:focus, .pageid-390 input:focus {
+    color: #F0F0F0;
 }
