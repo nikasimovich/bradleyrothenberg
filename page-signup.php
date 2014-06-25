@@ -20,7 +20,7 @@ Template Name: SignUp
                   <!-- Begin MailChimp Signup Form -->
                   <div id="mc_embed_signup">
                   <form action="http://bradleyrothenberg.us8.list-manage.com/subscribe/post?u=a2dee844d5f0278bf010e6bd0&amp;id=2e07a9a8cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                    <label for="mce-EMAIL">Sign up for our mailing list</label>
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder=" " required>
                       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                       <div style="position: absolute; left: -5000px;"><input type="text" name="b_a2dee844d5f0278bf010e6bd0_2e07a9a8cb" tabindex="-1" value=""></div>
@@ -31,5 +31,6 @@ Template Name: SignUp
                   <!--End mc_embed_signup-->
 
                 </div>
+<?php get_footer() ?>
 </body>
 </html>

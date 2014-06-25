@@ -1025,11 +1025,11 @@ body.page-template-page-signup-php{
   color: #f0f0f0;
 }
 
-.page-template-page-signup-phpbutton, html input[type="button"], .page-template-page-signup-phpinput[type="reset"],.page-template-page-signup-php input[type="submit"]{
+.page-template-page-signup-php button, html input[type="button"], .page-template-page-signup-phpinput[type="reset"],.page-template-page-signup-php input[type="submit"]{
   border: 4px solid;
   height: 150px;
   width: 150px;
-  margin-top: 5%;
+  margin: 5% 0 30% 0;
 }
 
 .page-template-page-signup-phpbutton, input {
@@ -1043,10 +1043,36 @@ body.page-template-page-signup-php{
 }
 
 
-.page-template-page-signup-phpinput, .page-template-page-signup-phpselect, .page-template-page-signup-phptextarea{
+.page-template-page-signup-php input, .page-template-page-signup-php select, .page-template-page-signup-php textarea{
     color: #F0F0F0;
 }
 
 .page-template-page-signup-phptextarea:focus, .page-template-page-signup-phpinput:focus {
     color: #F0F0F0;
+}
+
+
+.page-template-page-about-php .page-template-page-signup-phpbutton, input {
+  display: block;
+  border: 3px solid #F0F0F0;
+  height: 50px;
+}
+
+.page-template-page-about-php form#mc-embedded-subscribe-form {
+margin-top: 50px;
+}
+
+
+
+
+.page-template-page-about-php .page-template-page-signup-phpbutton, input {
+  display: block;
+  border: 3px solid #F0F0F0;
+  height: 50px;
+}
+
+.page-template-page-about-php button, html input[type="button"], .page-template-page-about-php input[type="reset"],.page-template-page-about-php input[type="submit"]
+{
+  margin-top: 15px;
+  margin-left: 0;
 }
