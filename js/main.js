@@ -99,14 +99,14 @@ $(function(){
     });
 
     function showMap(){
-        $('.section.contact').addClass('active');
+        $('.section.contact, #mc_embed_signup').addClass('active');
         $('#map').css({'z-index': 0}).addClass('active');
         $('#viewmap').html('Hide map');
         mapState = 'on';
     };
 
     function hideMap(){
-        $('.section.contact').removeClass('active');
+        $('.section.contact, #mc_embed_signup').removeClass('active');
         $('#map').removeClass('active');
         $('#viewmap').html('View map');
         setTimeout(function(){

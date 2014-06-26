@@ -1025,14 +1025,14 @@ body.page-template-page-signup-php{
   color: #f0f0f0;
 }
 
-.page-template-page-signup-php button, html input[type="button"], .page-template-page-signup-phpinput[type="reset"],.page-template-page-signup-php input[type="submit"]{
+.page-template-page-signup-php button, html input[type="button"], .page-template-page-signup-php input[type="reset"],.page-template-page-signup-php input[type="submit"]{
   border: 4px solid;
   height: 150px;
   width: 150px;
   margin: 5% 0 30% 0;
 }
 
-.page-template-page-signup-phpbutton, input {
+.page-template-page-signup-php button, input {
   line-height: normal;
   background-color: #046CC6;
   line-height: normal;
@@ -1047,32 +1047,65 @@ body.page-template-page-signup-php{
     color: #F0F0F0;
 }
 
-.page-template-page-signup-phptextarea:focus, .page-template-page-signup-phpinput:focus {
+.page-template-page-signup-php textarea:focus, .page-template-page-signup-php input:focus {
     color: #F0F0F0;
 }
 
 
-.page-template-page-about-php .page-template-page-signup-phpbutton, input {
+.page-template-page-about-php .page-template-page-signup-php button, input {
   display: block;
-  border: 3px solid #F0F0F0;
+  border: 3px solid;
   height: 50px;
 }
 
-.page-template-page-about-php form#mc-embedded-subscribe-form {
+
+
+.page-template-page-about-php form #mc-embedded-subscribe-form {
 margin-top: 50px;
 }
 
+div#mc_embed_signup {
+margin-top: 10%;
+}
 
 
-
-.page-template-page-about-php .page-template-page-signup-phpbutton, input {
+.page-template-page-about-php .page-template-page-signup-php button, input {
   display: block;
-  border: 3px solid #F0F0F0;
+  border: 3px solid;
   height: 50px;
+  background-color: transparent;
 }
 
 .page-template-page-about-php button, html input[type="button"], .page-template-page-about-php input[type="reset"],.page-template-page-about-php input[type="submit"]
 {
   margin-top: 15px;
   margin-left: 0;
+  background-color: transparent;
+}
+
+.s-category-research .project-description a {
+  color: #373636;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.s-category-research .project-description a:hover {
+  color: #f0f0f0;
+}
+
+
+#mc_embed_signup input {
+  color: #f0f0f0;
+}
+
+#mc_embed_signup.active {
+  color: #373636 !important;
+}
+#mc_embed_signup.active input {
+  color: #373636;
 }
