@@ -989,7 +989,7 @@ footer a:hover {
 
 #footer-mailing {
   line-height: 0;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 #footer-mailing .yks-mailchimpFormDivRowField input {
@@ -999,11 +999,15 @@ footer a:hover {
 }
 
 #footer-mailing button,#footer-mailing html input[type="button"],#footer-mailing input[type="reset"],#footer-mailing input[type="submit"] {
-  color: #373636;
+  /* color: #373636; */
   border: 2px solid;
   height: 40px;
   width: 40px;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
   margin-left: 10px;
+
 }
 
 
@@ -1108,4 +1112,26 @@ margin-top: 10%;
 }
 #mc_embed_signup.active input {
   color: #373636;
+}
+
+#footer-mailing #mc_embed_signup {
+  margin: 0;
+}
+
+#footer-mailing label {
+  display: block;
+  margin-bottom: 0;
+}
+
+#footer-mailing input {
+  color: #373636;
+  height: 30px;
+  display: inline-block;
+  margin-top: 17px;
+  border: 2px solid;
+  }
+
+
+#footer-mailing div.clear.form {
+  display: inline-block;
 }
