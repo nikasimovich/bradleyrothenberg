@@ -74,6 +74,20 @@ body.woocommerce-page {
   margin: 80px;
 }
 
+.s-category-work .project-description a{
+  color: #E4E4E4;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.s-category-work .project-description a:hover {
+  color: #373636;
+}
 
 .s-category-press .entry-content {
   color: #f0f0f0;
