@@ -257,13 +257,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 -webkit-appearance: button;
 cursor: pointer;
 color: #F0F0F0;
-border: 2px solid;
+/*border: 2px solid;*/
 height: 60px;
 width: 60px;
 margin-left: 15px;
 border-radius: 50% 50%;
 text-align: center;
-background-color: #046CC6;
 }
 
 .logo-text {
@@ -1058,7 +1057,7 @@ body.page-template-page-signup-php{
 
 .page-template-page-about-php .page-template-page-signup-php button, input {
   display: block;
-  border: 3px solid;
+  border: 2px solid;
   height: 50px;
 }
 
@@ -1075,7 +1074,7 @@ margin-top: 10%;
 
 .page-template-page-about-php .page-template-page-signup-php button, input {
   display: block;
-  border: 3px solid;
+  border: 2px solid;
   height: 50px;
   background-color: transparent;
 }
@@ -1129,9 +1128,33 @@ margin-top: 10%;
   display: inline-block;
   margin-top: 17px;
   border: 2px solid;
+  margin-top: 10px;
   }
 
 
 #footer-mailing div.clear.form {
   display: inline-block;
+}
+
+.press-contact {
+    width: 580px;
+    color: #E4E4E4;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.press-contact a {
+color: #E4E4E4;
+text-decoration: none;
+border-bottom: 1px dotted;
+-webkit-transition: color .2s ease-in-out;
+-moz-transition: color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out;
+-o-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+
+.press-contact a:hover {
+  color: #373636;
 }
