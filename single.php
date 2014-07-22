@@ -4,6 +4,15 @@
   <div id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
 
       <div class="entry-content">
+        <h2 class="entry-title">
+          <div class="left">
+            <?php previous_post_link('%link', '&#8592;', TRUE); ?>
+          </div>
+          <?php the_title() ?>
+          <div class="right">
+            <?php next_post_link('%link', '&#8594;', TRUE); ?>
+          </div></h2>
+
         <?php if( have_rows('images') ): ?>
         <div class="project-slideshow">
           <?php while( have_rows('images') ): the_row();
@@ -19,14 +28,6 @@
         <?php endwhile; ?>
       </div>
     <?php endif; ?>
-    <h2 class="entry-title">
-      <div class="left">
-        <?php previous_post_link('%link', '&#8592;', TRUE); ?>
-      </div>
-      <?php the_title() ?>
-      <div class="right">
-        <?php next_post_link('%link', '&#8594;', TRUE); ?>
-      </div></h2>
 
       <div class="press-image">
         <?php if( have_rows('press_clipping') ): ?>

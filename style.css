@@ -75,7 +75,7 @@ body.woocommerce-page {
 }
 
 .s-category-work .project-description a{
-  color: #E4E4E4;
+  color: #373636;
   text-decoration: none;
   border-bottom: 1px dotted;
   -webkit-transition: color .2s ease-in-out;
@@ -86,7 +86,7 @@ body.woocommerce-page {
 }
 
 .s-category-work .project-description a:hover {
-  color: #373636;
+  color: #E4E4E4;
 }
 
 .s-category-press .entry-content {
@@ -1151,7 +1151,8 @@ margin-top: 10%;
 }
 
 .press-contact {
-    width: 580px;
+    max-width: 800px;
+    text-align: center;
     color: #E4E4E4;
     font-size: 20px;
     margin-bottom: 20px;
@@ -1172,3 +1173,7 @@ transition: color .2s ease-in-out;
 .press-contact a:hover {
   color: #373636;
 }
+
+
+
+
