@@ -145,11 +145,11 @@ $(function(){
         $('#brad').show();
     });
 
-    $('#store-bar').hover(
-        function() {
-            $('#store-bar p').html('Coming soon!');
-        }, function() {
-            $('#store-bar p').html('Store');
-        });
+    // $('#store-bar').hover(
+    //     function() {
+    //         $('#store-bar p').html('Coming soon!');
+    //     }, function() {
+    //         $('#store-bar p').html('Store');
+    //     });
 
 });

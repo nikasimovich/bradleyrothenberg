@@ -502,6 +502,20 @@ margin: 0;
 }
 
 
+#store-bar a {
+  text-decoration: none;
+  color: #373636;
+  -webkit-transition: color .5s ease-in-out;
+  -moz-transition: color .5s ease-in-out;
+  -ms-transition: color .5s ease-in-out;
+  -o-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+
+#store-bar a:hover {
+  color: #046CC6;
+}
+
 #store-bar.woocommerce-page {
   position: fixed;
   top:0;

@@ -26,6 +26,6 @@
                     <?php wp_nav_menu( array( 'sort_column' => 'sort_column', 'container_class' => 'menu-header' ) ); ?>
                 </nav>
                 <div id="store-bar">
-                    <p class="store">Store</p>
+                    <p class="store"><a href="http://www.shop.bradleyrothenberg.com">Store</a></p>
                 </div>
             </header>
