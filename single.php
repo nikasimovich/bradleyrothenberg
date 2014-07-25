@@ -6,11 +6,11 @@
       <div class="entry-content">
         <h2 class="entry-title">
           <div class="left">
-            <?php previous_post_link('%link', '&#8592;', TRUE); ?>
+            <?php previous_post_link('%link', 'Previous', TRUE); ?>
           </div>
           <?php the_title() ?>
           <div class="right">
-            <?php next_post_link('%link', '&#8594;', TRUE); ?>
+            <?php next_post_link('%link', 'Next', TRUE); ?>
           </div></h2>
 
         <?php if( have_rows('images') ): ?>
