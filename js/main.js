@@ -164,7 +164,7 @@ $(function(){
        $('.entry-content').addClass('fade');
        $('footer').hide();
        setTimeout(function(){
-         window.location = 'shop.bradleyrothenberg.com', 5000;},900);
+         window.location = 'http://shop.bradleyrothenberg.com', 5000;},900);
         });
 
 });
