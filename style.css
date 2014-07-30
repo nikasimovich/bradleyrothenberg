@@ -47,7 +47,17 @@ body {
   height:100%;
   color: #373636;
   overflow-x: hidden;
+  opacity: 1;
 }
+
+.entry-content.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    -ms-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+}
+
 
 body.pageid-143 {
   background-color: #046CC6;
@@ -499,6 +509,21 @@ margin: 0;
   padding: 90vmin 0;
   cursor: pointer;
   /*padding: 80vmin 1.15px;*/
+  transition: left 0.4s ease-in;
+  -ms-transition: left 0.4s ease-in;
+  -moz-transition: left 0.4s ease-in;
+  -webkit-transition: left 0.4s ease-in;
+}
+
+#store-bar.show {
+    left: calc(100%-30px);
+    left: -webkit-calc(100% - 30px);
+    left:  -moz-calc(100% - 30px);
+    left: calc(100% - 30px);
+    transition: left 0.4s ease-out;
+    -ms-transition: left 0.4s ease-out;
+    -moz-transition: left 0.4s ease-out;
+    -webkit-transition: left 0.4s ease-out;
 }
 
 
@@ -699,7 +724,8 @@ color: #373636;
 }
 
 #page-17 .entry-content{
-  max-width: 990px;
+  /*max-width: 990px;*/
+  max-width: 1920px;
 }
 #page-143 .entry-content{
   max-width: 1005px;

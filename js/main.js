@@ -152,4 +152,19 @@ $(function(){
     //         $('#store-bar p').html('Store');
     //     });
 
+// window.location = 'http://example.com'
+
+    // $('#store-bar').click(function() {
+
+    //     $('#store-bar').animate({left: '-43px'}, 1500, 'easeOutQuint');
+    // });
+
+    $('#store-bar').click(function() {
+       $(this).addClass('show');
+       $('.entry-content').addClass('fade');
+       $('footer').hide();
+       setTimeout(function(){
+         window.location = 'http://bradley-rothenberg-devshop.myshopify.com/', 5000;},900);
+        });
+
 });
