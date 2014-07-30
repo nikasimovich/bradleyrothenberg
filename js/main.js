@@ -164,7 +164,7 @@ $(function(){
        $('.entry-content').addClass('fade');
        $('footer').hide();
        setTimeout(function(){
-         window.location = 'http://bradley-rothenberg-devshop.myshopify.com/', 5000;},900);
+         window.location = 'shop.bradleyrothenberg.com', 5000;},900);
         });
 
 });
