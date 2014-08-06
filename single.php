@@ -5,13 +5,21 @@
 
       <div class="entry-content">
         <h2 class="entry-title">
-          <div class="left">
+          <div class="left projnav">
             <?php previous_post_link('%link', 'Previous Project', TRUE); ?>
           </div>
+          <div class="left projnav-blog">
+            <?php previous_post_link('%link', 'Previous Post', TRUE); ?>
+          </div>
           <?php the_title() ?>
-          <div class="right">
+          <div class="right projnav">
             <?php next_post_link('%link', 'Next Project', TRUE); ?>
-          </div></h2>
+          </div>
+          <div class="right projnav-blog">
+            <?php next_post_link('%link', 'Next Post', TRUE); ?>
+          </div>
+        </h2>
+
 
         <?php if( have_rows('images') ): ?>
         <div class="project-slideshow">

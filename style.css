@@ -386,7 +386,7 @@ line-height: 0;
   display: none;
 }
 .section.team {
-  background-color: #E4E4E4;
+  background-color: #C1C1C1;
   color: #373636;
 }
 
@@ -485,6 +485,14 @@ path:hover .svg{
 
 .right {
   float: right;
+}
+
+.category-research .projnav {
+  display: none;
+}
+
+.category-work .projnav-blog {
+  display: none;
 }
 
 ::selection {

@@ -22,7 +22,6 @@
     <span class="blog-info-title">Contributors</span>
       Bradley Rothenberg<br/>
       Greg Schroy<br/>
-      Bradley Isnard<br/>
       Gautam Jain
   </div>
 </div>
