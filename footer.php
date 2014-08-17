@@ -11,17 +11,17 @@
         // s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
     <footer>
+          <span id="footer-text">
             <span class="logotype">Bradley Rothenberg</span>
             <span>381 Broadway #203</span>
             <span>New York, NY 10013</span>
-            <span>917-710-1396</span>
             <span><a href="mailto:studio@brandleyrothenberg.com?Subject=Hello" target="_top">studio@bradleyrothenberg.com</a></span>
-
+          </span>
             <div id="footer-mailing">
                     <div id="mc_embed_signup" class="footermailing">
                     <form class="form" action="http://bradleyrothenberg.us8.list-manage.com/subscribe/post?u=a2dee844d5f0278bf010e6bd0&amp;id=2e07a9a8cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                      <label for="mce-EMAIL">Sign up for our mailing list</label>
-                      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder=" " required>
+                      <!-- <label for="mce-EMAIL">Sign up for our mailing list</label> -->
+                      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail sign up" required>
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;"><input type="text" name="b_a2dee844d5f0278bf010e6bd0_2e07a9a8cb" tabindex="-1" value=""></div>
                         <div  class="clear form"><input type="submit" value="Ok" name="subscribe" id="mc-embedded-subscribe" class="button"></div>

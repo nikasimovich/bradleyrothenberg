@@ -27,9 +27,9 @@ Template Name: Home Page
                     </div>
                   <?php endif; ?>
 
-                  <div class="social-home">
+<!--                   <div class="social-home">
                     <?php get_template_part('partials/social_media'); ?>
-                  </div>
+                  </div> -->
                 </div>
             </div><!-- .post -->
         </div><!-- .content -->

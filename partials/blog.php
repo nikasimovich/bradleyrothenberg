@@ -11,9 +11,9 @@
 <div class="blog">
   <h4>
     <a href="<?php the_permalink() ?>">
-    <span class="date"><?php the_time('F j, Y') ?><br/></span>
+    <span class="date"><?php the_time('F j, Y') ?>:</span>
+    <span class="posttitle"><?php the_title() ?><br/></span>
     <span class="author">Posted by <?php the_author(); ?></br></span>
-    <?php the_title() ?>
   </a>
   </h4>
   <a href="<?php the_permalink() ?>"><img src="<?php echo $url; ?>"></a>

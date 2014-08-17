@@ -50,6 +50,10 @@ body {
   opacity: 1;
 }
 
+.social-home a {
+  text-decoration: none;
+}
+
 .entry-content.fade {
     opacity: 0;
     transition: opacity 0.5s ease-out;
@@ -58,8 +62,10 @@ body {
     -webkit-transition: opacity 0.5s ease-out;
 }
 
-
-body.pageid-143 {
+.posttitle {
+  color: #046CC6;
+}
+ body.pageid-143 {
   background-color: #046CC6;
 }
 
@@ -969,18 +975,44 @@ nav ul > li:first-of-type {
   height:100px;
 }*/
 
+/*old footer settings
+footer {
+  padding: 30px 160px;
+  font-size: 13px;
+}*/
 
 footer {
-padding: 30px 160px;
-/* max-width: 100vmax; */
-/* margin-bottom: 30px; */
-/* padding-bottom: 30px; */
-/* width: 450px; */
-font-size: 13px;
+  font-size: 13px;
+  clear: both;
+  color: #000;
+  height: 31px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1700;
+  background: #FFF;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 60px;
+  left: 0px !important;
+  float: left;
 }
 
 div.footer-social {
-margin: 0;
+  /* margin: 0; */
+  /* display: inline; */
+  display: inline;
+  float: right;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+  position: relative;
+  /* margin-left: 20em; */
+}
+
+svg:not(:root) {
+  overflow:hidden;
+  height: 12px;
+  margin-top: 10px;
 }
 
 .footer-social path {
@@ -1052,26 +1084,23 @@ footer a:hover {
 }
 
 #footer-mailing {
-  line-height: 0;
-  margin: 15px 0;
+  float: right;
+  padding: 3px 15px 0;
+  min-width: 100px;
 }
 
-#footer-mailing .yks-mailchimpFormDivRowField input {
-  border: 2px solid #373636;
-  height: 35px;
-  margin-top: 0;
-}
 
 #footer-mailing button,#footer-mailing html input[type="button"],#footer-mailing input[type="reset"],#footer-mailing input[type="submit"] {
   /* color: #373636; */
-  border: 2px solid;
-  height: 40px;
-  width: 40px;
+  border: 1px solid;
+  height: 25px;
+  width: 25px;
   text-align: center;
   display: inline-block;
   padding: 0;
-  margin-left: 10px;
-
+  font-size: 13px;
+  margin-left: 0;
+  /* margin-bottom: 10px; */
 }
 
 
@@ -1183,17 +1212,17 @@ margin-top: 10%;
 }
 
 #footer-mailing label {
-  display: block;
-  margin-bottom: 0;
+/*  display: block;
+  margin-bottom: 0;*/
 }
 
 #footer-mailing input {
   color: #373636;
-  height: 30px;
+  height: 20px;
   display: inline-block;
   margin-top: 17px;
-  border: 2px solid;
-  margin-top: 10px;
+  border: 1.5px solid;
+  margin-top: 0;
   }
 
 
