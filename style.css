@@ -501,6 +501,10 @@ path:hover .svg{
   display: none;
 }
 
+.projnav-blog, .projnav{
+  font-size: 13px;
+}
+
 ::selection {
   background-color: #046CC6;
   color: white;
