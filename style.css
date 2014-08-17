@@ -1107,6 +1107,22 @@ footer a:hover {
   /* margin-bottom: 10px; */
 }
 
+#mc_embed_signup.blogmailing input {
+  color: #373636;
+  /* height: 10px; */
+  height: 30px;
+  font-size: 13px;
+  border: 1px solid;
+  /* width: 20px; */
+}
+
+.blogmailing input#mc-embedded-subscribe {
+  width: 30px;
+  display: inline;
+  margin-left: 0;
+}
+
+
 
 #footer-mailing div.yks-mailchimpFormContainer {
   margin-top: -10px;
