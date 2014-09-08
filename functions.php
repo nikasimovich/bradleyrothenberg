@@ -427,6 +427,15 @@ function sandbox_ajax_get_single_post($id){
      return $posts;
 }
 
+//Gets post cat slug and looks for single-[cat slug].php and applies it
+add_filter('single_template', create_function(
+    '$the_template',
+    'foreach( (array) get_the_category() as $cat ) {
+        if ( file_exists(TEMPLATEPATH . "/single-{$cat->slug}.php") )
+        return TEMPLATEPATH . "/single-{$cat->slug}.php"; }
+    return $the_template;' )
+);
+
 // add_theme_support( 'woocommerce' );
 
 // add_filter('woocommerce_attribute_show_in_nav_menus', 'wc_reg_for_menus', 1, 2);
@@ -451,3 +460,4 @@ function sandbox_ajax_get_single_post($id){
 // }
 
 ?>
+

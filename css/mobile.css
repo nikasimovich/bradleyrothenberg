@@ -1,4 +1,5 @@
 
+
 nav ul {
 color: #373636;
 /* position: relative; */
@@ -10,14 +11,16 @@ position: absolute;
 /* margin: auto; */
 top: 50%;
 /* height: 22.5px; */
-height: 45px;
+height: 37px;
 width: auto;
 -webkit-transform: translate(0, -50%);
 -moz-transform: translate(0, -50%);
 -ms-transform: translate(0,-50%);
-left: 80px;
+left: 50px;
 margin-top: 0;
+font-size: 15px;
 position: absolute;
+line-height:1.2;
 /* vertical-align: middle; */
 }
 
@@ -28,7 +31,7 @@ padding: 110px;
 
 .entry-content {
   margin: 0;
-  font-size: 17px;
+  font-size: 12px;
 }
 
 nav {
@@ -39,7 +42,7 @@ top: 0 !important;
 left: 0;
 background-color: #FFF;
 z-index: 9999;
-height: 90px;
+height: 60px;
 /* height: 55px; */
 font-size: 17px;
 box-shadow: 1px 0 1px #ACAFAE;
@@ -78,6 +81,12 @@ transition: color 0.2s ease;
 
 #store-bar p{
   top: 120px;
+  font-size: 15px;
+  margin-left: -46px;
+}
+
+#store-bar {
+  width: 20px;
 }
 
 #about-nav {
@@ -114,7 +123,7 @@ max-width: 120px;
 .page-template-page-about-php .section {
 position: relative;
 padding: 200px 80px 200px 80px;
-font-size: 17px;
+font-size: 12px;
 }
 
 #blog {
@@ -126,13 +135,139 @@ margin: 100px;
 }
 
 footer {
-  padding: 30px 80px;
+  padding: 10px;
+  background: none;
+  color: #fff;
+  font-size: 10px;
 }
 
-div.footer-social {
-margin: 0;
+
+div.section-content {
+  padding: 0;
 }
 
 .pageid-19 .entry-content, body.tag .entry-content {
-max-width: none;
-margin: 100px 80px;
+  max-width: none;
+  margin: 100px 80px;
+}
+
+
+.page-template-page-about-php .page-template-page-signup-php button, input {
+  height: 20px;
+  border: 1px solid;
+  border-radius: 0;
+}
+
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  padding-left: 2px;
+}
+
+
+.credits {
+  font-size: 13px;
+  /* float: left; */
+  /* position: absolute; */
+  top: 160px;
+  left: 80px;
+  /* display: inline-block; */
+  /* z-index: 6; */
+  /* max-width: 120px; */
+  /* margin-bottom: 10%; */
+}
+
+
+
+
+.section.team div.section-content {
+  margin-top: 220px;
+}
+
+
+#brad, #greg, #brad2, #gotham {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+
+.project-overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 105%;
+  height: 100%;
+  background: none;
+}
+
+
+
+.project {
+  display: inline-block;
+  text-align: left;
+  margin: 0 10px 10px 0;
+}
+
+.projnav {
+  display: none;
+}
+
+
+.press-contact {
+  width: 100px;
+  /* text-align: center; */
+  color: #E4E4E4;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+
+.press a {
+  font-size:15px;
+}
+
+.press {
+  width: 200px;
+  margin: 0 10px 10px 0;
+}
+
+
+.project img {
+  max-width: 150%;
+}
+
+
+#left-column {
+  display: none;
+}
+
+
+.projnav-blog, .projnav {
+  display: none;
+}
+
+
+.entry-title {
+  line-height: 32px;
+}
+
+.page-template-page-work-php .entry-content {
+  margin: 100px 50px 0 50px;
+}
+
+
+#page-143 .entry-content {
+  max-width: 1005px;
+  padding: 100px 50px 0 100px;
+}
