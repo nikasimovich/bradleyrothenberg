@@ -152,9 +152,18 @@ max-width: none;
 margin: 80px;
 }
 
+body.tag h4:first-of-type {
+  margin-top: 0;
+}
+
 
 .pageid-19 h4,
 body.tag h4 {
+  margin-top: 10%;
+}
+
+.pageid-19 h4,
+body.tag h4:first-of-type{
   margin-top: 0;
 }
 
@@ -785,7 +794,7 @@ div.blog {
   top: 80px;
   right: 0;
   left: 400px;
-  margin: 0 100px;
+  /*margin: 0 100px;*/
   display: inline-block;
   z-index: 6;
   max-width: 610px;
@@ -805,7 +814,7 @@ body.tag .entry-content p:first-of-type {
 font-size: 18px;
 line-height: 1.3;
 color: #373636;
-/*margin-bottom: 30px;*/
+margin-bottom: 30px;
 }
 
 #page-17 h4{
