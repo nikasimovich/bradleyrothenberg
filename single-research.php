@@ -50,12 +50,14 @@
           <?php endwhile; ?>
       <?php endif; ?>
     </div>
-</div>
-
 
     <div class="videos">
       <?php _e( wp_oembed_get( get_field( 'videos' ) ) ); ?>
     </div>
+
+</div>
+
+
   </div>
 </div><!-- .post -->
 </div><!-- .content -->
