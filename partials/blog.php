@@ -11,12 +11,15 @@
 <div class="blog">
   <h4>
     <a href="<?php the_permalink() ?>">
-    <span class="date"><?php the_time('F j, Y') ?>:</span>
     <span class="posttitle"><?php the_title() ?><br/></span>
+    <span class="date"><?php the_time('F j, Y') ?></span><br/>
     <span class="author">Posted by <?php the_author(); ?></br></span>
   </a>
   </h4>
-  <a href="<?php the_permalink() ?>"><img src="<?php echo $url; ?>"></a>
+
+  <div class="blog-overlay">
+    <a href="<?php the_permalink() ?>"><img src="<?php echo $url; ?>"></a>
+  </div>
   <div class="tags">
     <?php
       if ($tags) {

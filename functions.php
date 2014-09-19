@@ -427,6 +427,15 @@ function sandbox_ajax_get_single_post($id){
      return $posts;
 }
 
+function load_fonts() {
+        wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+        wp_enqueue_style( 'googleFonts');
+    }
+
+add_action('wp_print_styles', 'load_fonts');
+
+
+
 //Gets post cat slug and looks for single-[cat slug].php and applies it
 add_filter('single_template', create_function(
     '$the_template',

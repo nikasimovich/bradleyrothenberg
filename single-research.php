@@ -6,16 +6,10 @@
 
       <div class="entry-content">
         <h2 class="entry-title">
-          <div class="left projnav">
-            <?php previous_post_link('%link', 'Previous Project', TRUE); ?>
-          </div>
           <div class="left projnav-blog">
             <?php previous_post_link('%link', 'Previous Post', TRUE); ?>
           </div>
-          <?php the_title() ?>
-          <div class="right projnav">
-            <?php next_post_link('%link', 'Next Project', TRUE); ?>
-          </div>
+          <!-- <?php the_title() ?> -->
           <div class="right projnav-blog">
             <?php next_post_link('%link', 'Next Post', TRUE); ?>
           </div>
@@ -29,14 +23,18 @@
             <?php get_template_part('partials/blog_left_column'); ?>
         </div>
 
-
-
 <div id="blog">
+
+  <h2><?php the_title() ?></h2>
+  <div id="blog-datetime">
+    <span class="date"><?php the_time('F j, Y') ?></span><br/>
+    <span class="author">Posted by <?php the_author(); ?></br><br/></span>
+  </div>
+
 
     <div class="project-description">
       <?php the_content() ?>
     </div>
-
 
     <div class="blog-images">
           <?php if( have_rows('blog_images') ): ?>
@@ -55,6 +53,7 @@
       <?php _e( wp_oembed_get( get_field( 'videos' ) ) ); ?>
     </div>
 
+    <?php comments_template(); ?>
 </div>
 
 
