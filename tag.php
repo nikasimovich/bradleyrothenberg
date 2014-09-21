@@ -16,12 +16,12 @@ Template Name: Research
                   <?php get_template_part('partials/blog_left_column'); ?>
 
                   <div id="blog">
+                    <span class="secondary-post-title"><?php single_tag_title('Category: '); ?></span>
+                        <?php while ( have_posts() ) : the_post(); ?>
 
-  <?php while ( have_posts() ) : the_post(); ?>
+                          <?php get_template_part('partials/blog'); ?>
 
-    <?php get_template_part('partials/blog'); ?>
-
-  <?php endwhile; ?>
+                        <?php endwhile; ?>
 
 
                 </div>

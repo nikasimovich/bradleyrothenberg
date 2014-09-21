@@ -12,14 +12,15 @@
   <h4>
     <a href="<?php the_permalink() ?>">
     <span class="posttitle"><?php the_title() ?><br/></span>
-    <span class="date"><?php the_time('F j, Y') ?></span><br/>
-    <span class="author">Posted by <?php the_author(); ?></br></span>
+    <span class="author">Posted by <?php the_author(); ?></span>
+    <span class="date"><?php the_time('m-d-y') ?></span>
   </a>
   </h4>
-
+  <a href="<?php the_permalink() ?>">
   <div class="blog-overlay">
-    <a href="<?php the_permalink() ?>"><img src="<?php echo $url; ?>"></a>
+    <img src="<?php echo $url; ?>">
   </div>
+  </a>
   <div class="tags">
     <?php
       if ($tags) {
@@ -35,5 +36,7 @@
   </div>
   <a href="<?php the_permalink() ?>">
    <?php echo $blogintro; ?>
+   <span class="readmore">&#10233;<?php the_time('h:i a') ?></span>
+   <span class="readmore right"><?php comments_number( 'No comments', '1 Comment', '% Comments' ); ?> </span>
   </a>
 </div>

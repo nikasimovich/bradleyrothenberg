@@ -145,26 +145,26 @@ $(function(){
         $('#brad').show();
     });
 
-    // $('#store-bar').hover(
-    //     function() {
-    //         $('#store-bar p').html('Coming soon!');
-    //     }, function() {
-    //         $('#store-bar p').html('Store');
-    //     });
-
-// window.location = 'http://example.com'
 
     // $('#store-bar').click(function() {
+    //    $(this).addClass('show');
+    //    $('.entry-content').addClass('fade');
+    //    $('footer').hide();
+    //    setTimeout(function(){
+    //      window.location = 'http://shop.bradleyrothenberg.com', 5000;},900);
+    //     });
 
-    //     $('#store-bar').animate({left: '-43px'}, 1500, 'easeOutQuint');
-    // });
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollToTop').fadeIn();
+        } else {
+            $('.scrollToTop').fadeOut();
+        }
+    });
 
-    $('#store-bar').click(function() {
-       $(this).addClass('show');
-       $('.entry-content').addClass('fade');
-       $('footer').hide();
-       setTimeout(function(){
-         window.location = 'http://shop.bradleyrothenberg.com', 5000;},900);
-        });
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
 
 });

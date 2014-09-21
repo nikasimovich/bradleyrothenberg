@@ -9,10 +9,11 @@ Template Name: Research
                     $twitter = get_field('twitter');
                 ?>
             <div id="page-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
+                <div>
+                    <a href="#" class="scrollToTop">Back to top</a>
+                </div>
                 <div class="entry-content">
-
                   <?php get_template_part('partials/blog_left_column'); ?>
-
                   <div id="blog">
                     <?php
                       // Arguments

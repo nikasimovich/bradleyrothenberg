@@ -3,7 +3,10 @@
     <script>window.jQuery || document.write('<script src="<?php echo get_bloginfo('template_url'); ?>/js/jquery-1.10.1.min.js"><\/script>')</script>
     <script src="<?php echo get_bloginfo('template_url'); ?>/js/viewport.js"></script>
     <script src="<?php echo get_bloginfo('template_url'); ?>/js/slick.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_url'); ?>/js/jquery.scrollTo.js"></script>
+    <script src="http://platform.twitter.com/widgets.js"></script>
     <script src="<?php echo get_bloginfo('template_url'); ?>/js/main.js"></script>
+
     <script>
         // var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
         // (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

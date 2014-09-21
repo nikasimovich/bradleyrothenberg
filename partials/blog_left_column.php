@@ -30,8 +30,13 @@
 
   <div class="blog-info">
     <span class="blog-info-title">Contributors</span>
-      Bradley Rothenberg<br/>
-      Greg Schroy<br/>
-      Gautam Jain
+    <ul id="list">
+      <?php wp_list_authors(); ?>
+    </ul>
+  </div>
+
+
+  <div>
+    <span id="returntoblog"><a href="<?php echo get_bloginfo('url'); ?>/research">Return to blog</a></span>
   </div>
 </div>

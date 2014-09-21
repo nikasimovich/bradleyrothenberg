@@ -25,7 +25,7 @@
                 <nav>
                     <?php wp_nav_menu( array( 'sort_column' => 'sort_column', 'container_class' => 'menu-header' ) ); ?>
                 </nav>
-                <div id="store-bar">
+<!--                 <div id="store-bar">
                     <p class="store">Store</p>
-                </div>
+                </div> -->
             </header>
