@@ -72,6 +72,7 @@
 
     <div class="project-description">
       <?php the_content() ?>
+      </div>
 
       <div class="tags">
         <?php
@@ -88,7 +89,6 @@
           }
         ?>
       </div>
-    </div>
 
 
     <div class="blog-images">
@@ -105,7 +105,7 @@
     </div>
 
     <div class="videos">
-      <?php _e( wp_oembed_get( get_field( 'videos' ), array('width'=>690) ) ); ?>
+      <?php _e( wp_oembed_get( get_field( 'videos' ), array('width'=>960) ) ); ?>
     </div>
 
     <h2 class="entry-title">
